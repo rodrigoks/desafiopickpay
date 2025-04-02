@@ -62,6 +62,7 @@ public class TransactionService {
 
     }
 
+    @SuppressWarnings("null")
     public boolean authorizeTransaction(User sender, BigDecimal value) {
 
         @SuppressWarnings("rawtypes")

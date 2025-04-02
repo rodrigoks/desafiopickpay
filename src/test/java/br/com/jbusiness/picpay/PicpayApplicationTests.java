@@ -1,13 +1,13 @@
-package br.com.jbusiness.picpay.picpay;
+package br.com.jbusiness.picpay;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PicpayApplicationTests {
+public class PicpayApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
